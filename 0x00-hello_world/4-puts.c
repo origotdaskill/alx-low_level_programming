@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * The main function of the program.
- */
-int main(void) {/*
- * This program prints a message using the puts function.
+ * main - Entry point of the program.
  *
- */puts("\"Programming is like building a multilingual puzzle");
-/*
- * @return 0 indicating successful execution.
+ * This function demonstrates the use of the puts function to print a message.
+ *
+ * Return: Always 0 (Success)
+ *   This function returns 0 to indicate successful execution.
  */
+int main(void) {
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
