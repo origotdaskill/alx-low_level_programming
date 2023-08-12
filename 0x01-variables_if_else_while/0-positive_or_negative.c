@@ -5,10 +5,11 @@
 
 /* betty style doc for function main goes there */
 int main(void)
-	/*This main code generates a random numbers*/
+/*This main code generates a random numbers*/
 {
+	/*main code and below the var numbe */
 	int n;
-
+	/*this is the code that generate numbers*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
