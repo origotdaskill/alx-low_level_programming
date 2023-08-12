@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: Prints the lowercase alphabet followed by the uppercase alphabet,
+ *              both followed by a newline, using only the putchar function.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char lowercase = 'a';
@@ -17,5 +25,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return 0;
+	return (0);
 }
