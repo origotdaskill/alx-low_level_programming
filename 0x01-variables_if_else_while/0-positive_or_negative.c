@@ -2,14 +2,19 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
+/**
+ * main - Entry point of the program
+ *
+ * Description: Generates a random number and determines if it's positive,
+ *              negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 /* betty style doc for function main goes there */
 int main(void)
-/*This main code generates a random numbers*/
 {
-	/*main code and below the var numbe */
 	int n;
-	/*this is the code that generate numbers*/
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
