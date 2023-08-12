@@ -4,7 +4,6 @@
  * main - Entry point of the program
  *
  * Description: Prints the lowercase alphabet followed by the uppercase alphabet,
- *              both followed by a newline, using only the putchar function.
  *
  * Return: Always 0 (Success)
  */
