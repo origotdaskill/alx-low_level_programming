@@ -19,7 +19,7 @@ int main(void)
 			if (comma)
 			{
 				putchar(',');
-				putchar(' ');
+				
 			}
 			putchar('0' + i);
 			putchar('0' + j);
