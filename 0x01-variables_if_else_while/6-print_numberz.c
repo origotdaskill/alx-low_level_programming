@@ -3,18 +3,18 @@
 /**
  * main - Entry point of the program
  *
- * Description:program that prints all single digit numbers of base 10 starting from 0,
+ * Description:program that prints all single digit
  * followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i ;
+	int i;
 
-	for ( i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-	putchar('0'+i);
+	putchar('0' + i);
 	}
 	 putchar('\n');
 
