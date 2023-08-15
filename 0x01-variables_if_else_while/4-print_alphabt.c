@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: prints the alphabet in lowercase, followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char letter;
@@ -8,11 +15,11 @@ int main(void)
 	{
 	/* Code to output the character goes here */
 		if (letter != 'q' && letter != 'e')
-	{
-	putchar(letter);
-	}
+		{
+		putchar(letter);
+		}
 	}
 	putchar('\n');
 
-    return (0);
+	return (0);
 }
