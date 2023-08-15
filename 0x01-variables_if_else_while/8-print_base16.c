@@ -9,13 +9,16 @@
  */
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	int i;
+	int g;
+
+	for (i = 0; i < 10; i++)
 	{
 		putchar('0' + i);
 	}
-	for (int i = 0; i < 6; i++)
+	for (g = 0; g < 6; g++)
 	{
-		putchar('a' + i);
+		putchar('a' + g);
 	}
 	putchar('\n');
 	return (0);
