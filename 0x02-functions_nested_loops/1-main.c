@@ -1,5 +1,4 @@
-#include"main.h"
-#include"1-alphabet.c"
+#include "main.h"
 
 /**
  * main - check the code
