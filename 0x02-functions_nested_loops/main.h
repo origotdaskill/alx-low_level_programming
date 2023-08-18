@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-/* Function prototypes */
-int main(void);
+void print_alphabet(void);
+int _putchar(char c);
 
 #endif /* MAIN_H */
