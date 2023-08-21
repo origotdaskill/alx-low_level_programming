@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * decription : a function that takes a pointer to an int 
+ * reset_to_98 - Updates the value pointed to by a pointer to 98
+ * @n: A pointer to an integer
  */
 void reset_to_98(int *n)
 {
