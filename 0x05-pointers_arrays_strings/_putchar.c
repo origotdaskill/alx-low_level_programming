@@ -1,23 +1,12 @@
 #include <unistd.h>
 
 /**
- * _putchar - Prints a string to the standard output (stdout)
- * @str: The string to be printed
- * Return: On success, the number of characters printed is returned.
- * On error, -1 is returned, and errno is set appropriately.
+ * _putchar - Writes a character to stdout
+ * @c: The character to be written
+ * Return: On success 1, on error -1
  */
-int _putchar(char *str)
+int _putchar(char c)
 {
-	int len = 0;
-
-	while (str[len])
-	{
-		if (write(1, &str[len], 1) == -1)
-		{
-			return (-1);
-		}
-		len++;
-	}
-
-	return (len);
+    return write(1, &c, 1);
 }
+
