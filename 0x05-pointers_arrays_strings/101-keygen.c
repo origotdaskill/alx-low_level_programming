@@ -10,7 +10,8 @@ char random_char()
 }
 void generate_password(char *password, int length)
 {
-	for (int i = 0; i < length; i++)
+	int i;
+	for (i = 0; i < length; i++)
 	{
 		password[i] = random_char();
 	}
@@ -22,8 +23,9 @@ int main()
 	srand(time(NULL));
 	int password_length = 10;
 	char password[password_length + 1];
+	int i;
 
-	for (int i = 0; i < 1000; i++)
+	for (i = 0; i < 1000; i++)
 	{
 		generate_password(password, password_length);
 		if (check_password(password)
