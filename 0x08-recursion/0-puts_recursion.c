@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- *She locked away a secret, 
- *deep inside herself, 
- *something she once knew to be true...
- * but chose to forget
+ * _puts_recursion - Prints a string, followed by a new line.
+ * @s: The string to be printed.
+ *
+ * Description: This function recursively prints each character of the
+ * string until the null terminator is encountered, then adds a new line.
  */
 void _puts_recursion(char *s)
 {
