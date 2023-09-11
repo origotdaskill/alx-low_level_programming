@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef MAIN_H
+#define MAIN_H
 
 struct dog {
     char *name;
@@ -7,7 +7,7 @@ struct dog {
     char *owner;
 };
 
-/* Function prototype */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
-#endif /* DOG_H */
+#endif /* MAIN_H */
+
