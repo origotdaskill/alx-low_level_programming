@@ -1,3 +1,17 @@
+/**********************************************************************
+ *                             Dog Struct                              *
+ *--------------------------------------------------------------------*
+ * Description:                                                       *
+ *   This C code defines a simple structure called "dog," which        *
+ *   represents information about a dog, including its name, age, and  *
+ *   owner. It also provides function prototypes for initializing and  *
+ *   printing the information stored in a "dog" structure.             *
+ *                                                                    *
+ * Structure Fields:                                                  *
+ *   - name: Name of the dog (a character pointer).                    *
+ *   - age: Age of the dog (a floating-point number).                  *
+ *   - owner: Owner of the dog (a character pointer).                  *
+ **********************************************************************/
 #ifndef DOG_H
 #define DOG_H
 
