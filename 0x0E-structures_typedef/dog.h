@@ -1,10 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
-
-struct dog {
-    char *name;
-    float age;
-    char *owner;
+/* this is for the gog struct */
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
 };
 
 /* Function prototype */
