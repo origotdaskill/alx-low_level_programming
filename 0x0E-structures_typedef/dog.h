@@ -1,6 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
-/* this is for the gog struct */
+
+/*Define the "dog" structure*/
 struct dog
 {
 	char *name;
