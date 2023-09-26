@@ -20,4 +20,4 @@ typedef struct listint_s
 /* Function prototypes */
 size_t print_listint(const listint_t *h);
 
-#endif /* LIST_H */
+#endif
