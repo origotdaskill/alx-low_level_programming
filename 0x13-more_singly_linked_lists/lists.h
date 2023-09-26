@@ -17,12 +17,7 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-/**
- * print_listint - Prints all the elements of a listint_t list.
- * @h: Pointer to the head of the list
- *
- * Return: The number of nodes in the list
- */
+
 size_t print_listint(const listint_t *h);
 
 #endif
