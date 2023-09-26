@@ -9,7 +9,7 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t count = 0; /* Initialize a counter for nodes */
+	size_t count = 0;
 
 	while (h != NULL)
 	{
@@ -17,6 +17,5 @@ size_t print_listint(const listint_t *h)
 		h = h->next;
 		count++;
 	}
-
 	return (count);
 }
