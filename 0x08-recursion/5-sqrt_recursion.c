@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - Returns the natural square root of a number.
- * @n: The number for which to find the square root.
+ * Calculate the square root of a number using recursion.
  *
- * Return : the square root of n if it's a perfect square; otherwise, return -1. 
+ * This function calculates the square root of a number.
+ *
+ * @param x The number for which to calculate the square root.
+ * @return The calculated square root of the input number.
  */
 int _sqrt_recursion(int n)
 {
@@ -12,11 +14,12 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * sqrt_recursive - Helper function for recursive square root calculation.
- * @n: The number for which to find the square root.
- * @x: The current guess for the square root.
+ * Calculate the square root of a number using recursion.
  *
- * Return : the square root of n if it's a perfect square; otherwise, return -1.
+ * This function calculates the square root of a number.
+ *
+ * @param x The number for which to calculate the square root.
+ * @return The calculated square root of the input number.
  */
 int sqrt_recursive(int n, int x)
 {
