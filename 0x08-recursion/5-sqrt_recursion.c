@@ -1,25 +1,22 @@
 #include "main.h"
 
 /**
- * Calculate the square root of a number using recursion.
+ * _sqrt_recursion - Returns the natural square root of a number.
+ * @n: The number to find the square root of.
  *
- * This function calculates the square root of a number.
- *
- * @param x The number for which to calculate the square root.
- * @return The calculated square root of the input number.
+ * Return: 'n'or -1 square root.
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_recursive(n, 1));
+        return (sqrt_recursive(n, 1));
 }
 
 /**
- * Calculate the square root of a number using recursion.
+ * sqrt_recursive - Recursively finds the square root of a number.
+ * @n: The number to find the square root of.
+ * @x: The current guess for the square root.
  *
- * This function calculates the square root of a number.
- *
- * @param x The number for which to calculate the square root.
- * @return The calculated square root of the input number.
+ * Return:  'n' or -1  square root.
  */
 int sqrt_recursive(int n, int x)
 {
