@@ -4,7 +4,7 @@
  * _sqrt_recursion - Returns the natural square root of a number.
  * @n: The number for which to find the square root.
  *
- * Return : n, or -1.
+ * Return : its  return square value of n, or -1.
  */
 int _sqrt_recursion(int n)
 {
@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
  * @n: The number for which to find the square root.
  * @x: The current guess for the square root.
  *
- * Return : n, or -1.
+ * Return : its return the square value of n, or -1.
  */
 int sqrt_recursive(int n, int x)
 {
