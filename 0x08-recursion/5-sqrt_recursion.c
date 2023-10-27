@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - Returns the natural square root of a number.
+ * @n: The number for which to find the square root.
  */
 int _sqrt_recursion(int n)
 {
@@ -10,6 +11,9 @@ int _sqrt_recursion(int n)
 
 /**
  * sqrt_recursive - Helper function for recursive square root calculation.
+ * @n: The number for which to find the square root.
+ * @x: The current guess for the square roo* @n: The number for which to find the square root.
+ *  * @x: The current guess for the square root.
  */
 int sqrt_recursive(int n, int x)
 {
