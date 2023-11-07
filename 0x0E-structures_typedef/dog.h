@@ -44,4 +44,16 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  */
 void print_dog(struct dog *d);
 
+/**
+ * new_dog - Creates a new dog and stores a copy of name and owner
+ * @name: The name of the dog
+ * @age: The age of the dog
+ * @owner: The name of the dog's owner
+ *
+ * Return: A pointer to the new dog, or NULL if the function fails
+ *
+ * Description: This function creates a new dog, allocates memory for it, and
+ * makes copies of the provided name and owner to store in the dog structure.
+ */
+dog_t *new_dog(char *name, float age, char *owner);
 #endif /* DOG_H */
