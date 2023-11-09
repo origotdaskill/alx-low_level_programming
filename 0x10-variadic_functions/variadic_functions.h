@@ -22,4 +22,15 @@ int sum_them_all(const unsigned int n, ...);
  *              Prints a new line at the end of the function.
  */
 void print_numbers(const char *separator, const unsigned int n, ...);
+/**
+ * print_strings - Prints strings followed by a new line.
+ * @separator: The string to be printed between the strings.
+ * @n: The number of strings passed to the function.
+ * @...: Variable number of strings.
+ *
+ * Description: If separator is NULL, it won't be printed.
+ *              If a string is NULL, it will print (nil) instead.
+ *              Prints a new line at the end of the function.
+ */
+void print_strings(const char *separator, const unsigned int n, ...);
 #endif /* VARIADIC_FUNCTIONS_H */
