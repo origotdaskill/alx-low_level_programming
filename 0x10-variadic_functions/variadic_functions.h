@@ -1,8 +1,5 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
-
-#include <stdarg.h>
-
 /**
  * sum_them_all - Returns the sum of its parameters.
  * @n: The number of parameters.
@@ -33,4 +30,15 @@ void print_numbers(const char *separator, const unsigned int n, ...);
  *              Prints a new line at the end of the function.
  */
 void print_strings(const char *separator, const unsigned int n, ...);
+/**
+ * print_all - Prints anything based on the format string.
+ * @format: A list of types of arguments passed to the function.
+ * @...: Variable number of arguments.
+ *
+ * Description: 'c' for char, 'i' for integer, 'f' for float,
+ *              's' for char* (if string is NULL, print (nil)),
+ *              any other char is ignored.
+ *              Prints a new line at the end of the function.
+ */
+void print_all(const char * const format, ...);
 #endif /* VARIADIC_FUNCTIONS_H */
