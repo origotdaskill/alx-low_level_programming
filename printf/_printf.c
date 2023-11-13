@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
-
+#include  "main.h"
 /**
  * _printf - Produces output according to a format.
  * @format: A character string containing directives.
@@ -31,6 +31,9 @@ int _printf(const char *format, ...)
 			case 'i':
 				count += printf("%d", va_arg(args, int));
 				break;
+			case 'b':
+				count += print_binary(va_arg(args, unsigned int));
+				break;
 			case '%':
 				putchar('%');
 				count++;
@@ -53,4 +56,27 @@ int _printf(const char *format, ...)
 	va_end(args);
 
 	return count;
+}
+
+/**
+ * print_binary - Prints the binary representation of an unsigned int.
+ * @n: The unsigned int to print in binary.
+ *
+ * Return: The number of characters printed.
+ */
+int print_binary(unsigned int n)
+{
+	if (n == 0)
+	{
+		putchar('0');
+		return 1;
+	}
+
+	if (n == 1)
+	{
+		putchar('1');
+		return 1;
+	}
+
+	return print_binary(n >> 1) + putchar((n & 1) + '0');
 }
