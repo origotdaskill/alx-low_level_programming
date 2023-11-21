@@ -2,7 +2,7 @@
 #define YOUR_HEADER_H
 
 #include <stddef.h>
-
+#include <stdlib.h>
 
 /* Define your struct */
 typedef struct listint_t {
