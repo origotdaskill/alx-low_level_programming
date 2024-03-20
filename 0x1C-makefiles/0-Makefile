@@ -1,0 +1,14 @@
+# Usage:
+# make        # print school
+# make clean  # prtend removing 
+
+.PHONY = all clean
+
+
+print: 
+	@echo "Checking.."
+	@gcc -lm main.c school.c -o school
+
+clean:
+	@echo "Cleaning up..."
+	@rm school
